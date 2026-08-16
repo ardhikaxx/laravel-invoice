@@ -133,3 +133,10 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
+
+## Support & Donation
+
+If you find this package helpful and it saves your time, consider supporting my work by scanning the QRIS below:
+
+![QRIS Donation](qris.png)
+
