@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Ardhikaxx\LaravelInvoice\Enums\InvoiceStatus;
+use Illuminate\Support\Facades\Mail;
+use Ardhikaxx\LaravelInvoice\Mail\InvoiceCreatedMail;
 
 class Invoice extends Model
 {
@@ -53,5 +55,14 @@ class Invoice extends Model
     public function getDueAmountAttribute(): float
     {
         return max(0, $this->grand_total - $this->paid_amount);
+    }
+
+    public function sendToCustomer($toEmail = null): void
+    {
+        $email = $toEmail ?? $this->customer?->email;
+        
+        if ($email) {
+            Mail::to($email)->send(new InvoiceCreatedMail($this));
+        }
     }
 }

@@ -47,6 +47,7 @@ class InvoiceServiceProvider extends ServiceProvider
 
             $this->commands([
                 Commands\InstallCommand::class,
+                Commands\MakeInvoiceCommand::class,
             ]);
         }
         

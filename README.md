@@ -110,6 +110,26 @@ return $pdfGenerator->download($invoice);
 $url = $pdfGenerator->save($invoice, 'public/invoices/inv-123.pdf');
 ```
 
+### Emailing the Invoice
+
+Send the invoice directly to the customer's email (with the PDF automatically attached):
+
+```php
+// Will send to $invoice->customer->email
+$invoice->sendToCustomer();
+
+// Or specify an email directly
+$invoice->sendToCustomer('finance@company.com');
+```
+
+## Console Commands
+
+You can quickly generate a mock invoice via terminal for testing or debugging:
+
+```bash
+php artisan invoice:create --customer_id=1 --amount=500000
+```
+
 ## REST API Endpoints
 
 Once installed, the following endpoints are available under the `api` middleware:

@@ -2,6 +2,12 @@
 
 All notable changes to `laravel-invoice` will be documented in this file.
 
+## 1.1.0 - 2026-08-16
+### Added
+- Feature: Out-of-the-box Mailable `InvoiceCreatedMail` with PDF attachment.
+- Feature: `sendToCustomer()` method on `Invoice` model for instant emailing.
+- Feature: Artisan Command `make:invoice` to quickly generate test invoices.
+
 ## 1.0.0 - 2026-08-16
 ### Added
 - Initial release.
