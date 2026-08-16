@@ -19,7 +19,7 @@ class PaymentService
         return DB::transaction(function () use ($invoice, $amount, $options) {
             $payment = $invoice->payments()->create([
                 'amount' => $amount,
-                'currency' => $options['currency'] ?? $invoice->currency,
+                'currency' => $options['currency'] ?? $invoice->currency ?? config('invoice.currency', 'IDR'),
                 'payment_method' => $options['payment_method'] ?? null,
                 'transaction_reference' => $options['transaction_reference'] ?? null,
                 'status' => PaymentStatus::COMPLETED,
