@@ -5,7 +5,6 @@
 [![PHP Version Require](https://img.shields.io/packagist/php-v/ardhikaxx/laravel-invoice?style=flat-square)](https://packagist.org/packages/ardhikaxx/laravel-invoice)
 [![License](https://img.shields.io/packagist/l/ardhikaxx/laravel-invoice?style=flat-square)](https://packagist.org/packages/ardhikaxx/laravel-invoice)
 
-
 A complete, professional, and production-ready invoice engine for Laravel. 
 
 This package is designed for building robust invoice systems in e-commerce, POS, SaaS, or any other enterprise applications. It provides the full business logic out-of-the-box: invoice generation, precise tax/discount calculation, partial payments, state management, PDF generation, and public verification.
@@ -129,14 +128,14 @@ composer test
 
 Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
 
-## License
+---
+## 💖 Dukungan & Donasi
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+Jika *library* ini bermanfaat bagi Anda dan telah menghemat banyak jam kerja Anda, Anda dapat menunjukkan apresiasi dengan memberikan traktiran kopi (donasi) melalui pemindaian kode QRIS di bawah ini:
 
+<img src="./qris.png" alt="QRIS Donasi" width="300"/>
 
-## Support & Donation
+---
+## 📝 Lisensi
 
-If you find this package helpful and it saves your time, consider supporting my work by scanning the QRIS below:
-
-![QRIS Donation](qris.png)
-
+Proyek ini bersifat *open-source* dan didistribusikan di bawah [Lisensi MIT](LICENSE).
