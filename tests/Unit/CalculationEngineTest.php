@@ -1,9 +1,9 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Tests\Unit;
+namespace Ardhikaxx\LaravelInvoice\Tests\Unit;
 
-use Vendor\LaravelInvoice\Tests\TestCase;
-use Vendor\LaravelInvoice\Services\CalculationEngine;
+use Ardhikaxx\LaravelInvoice\Tests\TestCase;
+use Ardhikaxx\LaravelInvoice\Services\CalculationEngine;
 
 class CalculationEngineTest extends TestCase
 {

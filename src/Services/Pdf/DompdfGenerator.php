@@ -1,9 +1,9 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Services\Pdf;
+namespace Ardhikaxx\LaravelInvoice\Services\Pdf;
 
-use Vendor\LaravelInvoice\Contracts\PdfGeneratorInterface;
-use Vendor\LaravelInvoice\Models\Invoice;
+use Ardhikaxx\LaravelInvoice\Contracts\PdfGeneratorInterface;
+use Ardhikaxx\LaravelInvoice\Models\Invoice;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\View;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Models;
+namespace Ardhikaxx\LaravelInvoice\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Vendor\LaravelInvoice\Enums\PaymentStatus;
+use Ardhikaxx\LaravelInvoice\Enums\PaymentStatus;
 
 class Payment extends Model
 {

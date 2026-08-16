@@ -1,9 +1,9 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Tests;
+namespace Ardhikaxx\LaravelInvoice\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use Vendor\LaravelInvoice\InvoiceServiceProvider;
+use Ardhikaxx\LaravelInvoice\InvoiceServiceProvider;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class TestCase extends OrchestraTestCase

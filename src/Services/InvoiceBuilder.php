@@ -1,10 +1,10 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Services;
+namespace Ardhikaxx\LaravelInvoice\Services;
 
-use Vendor\LaravelInvoice\Models\Invoice;
-use Vendor\LaravelInvoice\Models\Customer;
-use Vendor\LaravelInvoice\Enums\InvoiceStatus;
+use Ardhikaxx\LaravelInvoice\Models\Invoice;
+use Ardhikaxx\LaravelInvoice\Models\Customer;
+use Ardhikaxx\LaravelInvoice\Enums\InvoiceStatus;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\DB;
 

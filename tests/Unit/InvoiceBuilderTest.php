@@ -1,11 +1,11 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Tests\Unit;
+namespace Ardhikaxx\LaravelInvoice\Tests\Unit;
 
-use Vendor\LaravelInvoice\Tests\TestCase;
-use Vendor\LaravelInvoice\Services\InvoiceBuilder;
-use Vendor\LaravelInvoice\Models\Customer;
-use Vendor\LaravelInvoice\Models\Invoice;
+use Ardhikaxx\LaravelInvoice\Tests\TestCase;
+use Ardhikaxx\LaravelInvoice\Services\InvoiceBuilder;
+use Ardhikaxx\LaravelInvoice\Models\Customer;
+use Ardhikaxx\LaravelInvoice\Models\Invoice;
 
 class InvoiceBuilderTest extends TestCase
 {

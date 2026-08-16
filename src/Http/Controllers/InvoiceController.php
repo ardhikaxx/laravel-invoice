@@ -1,14 +1,14 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Http\Controllers;
+namespace Ardhikaxx\LaravelInvoice\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
-use Vendor\LaravelInvoice\Models\Invoice;
-use Vendor\LaravelInvoice\Services\InvoiceBuilder;
-use Vendor\LaravelInvoice\Services\PaymentService;
-use Vendor\LaravelInvoice\Contracts\PdfGeneratorInterface;
+use Ardhikaxx\LaravelInvoice\Models\Invoice;
+use Ardhikaxx\LaravelInvoice\Services\InvoiceBuilder;
+use Ardhikaxx\LaravelInvoice\Services\PaymentService;
+use Ardhikaxx\LaravelInvoice\Contracts\PdfGeneratorInterface;
 
 class InvoiceController extends Controller
 {

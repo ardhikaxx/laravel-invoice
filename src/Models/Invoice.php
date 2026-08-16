@@ -1,13 +1,13 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Models;
+namespace Ardhikaxx\LaravelInvoice\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
-use Vendor\LaravelInvoice\Enums\InvoiceStatus;
+use Ardhikaxx\LaravelInvoice\Enums\InvoiceStatus;
 
 class Invoice extends Model
 {

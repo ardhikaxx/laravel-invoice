@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Commands;
+namespace Ardhikaxx\LaravelInvoice\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;

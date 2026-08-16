@@ -19,13 +19,13 @@ This package is designed for building robust invoice systems in e-commerce, POS,
 You can install the package via composer:
 
 ```bash
-composer require vendor/laravel-invoice
+composer require ardhikaxx/laravel-invoice
 ```
 
 Publish the configuration file, migrations, and views:
 
 ```bash
-php artisan vendor:publish --provider="Vendor\LaravelInvoice\InvoiceServiceProvider"
+php artisan vendor:publish --provider="Ardhikaxx\LaravelInvoice\InvoiceServiceProvider"
 ```
 
 Run the migrations:
@@ -49,8 +49,8 @@ You can customize the package via `config/invoice.php`.
 Use the `InvoiceBuilder` to quickly create an invoice with items.
 
 ```php
-use Vendor\LaravelInvoice\Services\InvoiceBuilder;
-use Vendor\LaravelInvoice\Models\Customer;
+use Ardhikaxx\LaravelInvoice\Services\InvoiceBuilder;
+use Ardhikaxx\LaravelInvoice\Models\Customer;
 
 $customer = Customer::find(1);
 
@@ -72,7 +72,7 @@ echo $invoice->grand_total; // 7,350,000.00
 The `PaymentService` automatically updates the invoice status when the balance is fulfilled.
 
 ```php
-use Vendor\LaravelInvoice\Services\PaymentService;
+use Ardhikaxx\LaravelInvoice\Services\PaymentService;
 
 $service = new PaymentService();
 
@@ -94,7 +94,7 @@ $service->addPayment($invoice, $invoice->due_amount);
 ### Generating PDF
 
 ```php
-use Vendor\LaravelInvoice\Contracts\PdfGeneratorInterface;
+use Ardhikaxx\LaravelInvoice\Contracts\PdfGeneratorInterface;
 
 $pdfGenerator = app(PdfGeneratorInterface::class);
 

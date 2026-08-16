@@ -1,8 +1,8 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Contracts;
+namespace Ardhikaxx\LaravelInvoice\Contracts;
 
-use Vendor\LaravelInvoice\Models\Invoice;
+use Ardhikaxx\LaravelInvoice\Models\Invoice;
 
 interface PaymentGatewayInterface
 {

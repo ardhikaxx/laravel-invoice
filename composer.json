@@ -1,12 +1,13 @@
 {
-    "name": "vendor/laravel-invoice",
+    "name": "ardhikaxx/laravel-invoice",
     "description": "A complete, professional, and production-ready invoice engine for Laravel.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your.email@example.com"
+            "name": "Yanuar Ardhika",
+            "email": "ardhikayanuar58@gmail.com",
+            "homepage": "https://yanuar-ardhika.vercel.app/"
         }
     ],
     "require": {
@@ -17,28 +18,35 @@
     },
     "require-dev": {
         "orchestra/testbench": "^8.0|^9.0|^10.0",
-        "phpunit/phpunit": "^10.0|^11.0"
+        "phpunit/phpunit": "^10.0|^11.0",
+        "pestphp/pest": "^2.0",
+        "pestphp/pest-plugin-laravel": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "Vendor\\LaravelInvoice\\": "src/"
+            "Ardhikaxx\\LaravelInvoice\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vendor\\LaravelInvoice\\Tests\\": "tests/"
+            "Ardhikaxx\\LaravelInvoice\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\LaravelInvoice\\InvoiceServiceProvider"
+                "Ardhikaxx\\LaravelInvoice\\InvoiceServiceProvider"
             ],
             "aliases": {
-                "Invoice": "Vendor\\LaravelInvoice\\Facades\\Invoice"
+                "Invoice": "Ardhikaxx\\LaravelInvoice\\Facades\\Invoice"
             }
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
 }

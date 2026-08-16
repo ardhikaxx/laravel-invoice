@@ -1,12 +1,12 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Tests\Unit;
+namespace Ardhikaxx\LaravelInvoice\Tests\Unit;
 
-use Vendor\LaravelInvoice\Tests\TestCase;
-use Vendor\LaravelInvoice\Services\PaymentService;
-use Vendor\LaravelInvoice\Models\Invoice;
-use Vendor\LaravelInvoice\Enums\InvoiceStatus;
-use Vendor\LaravelInvoice\Events\InvoicePaid;
+use Ardhikaxx\LaravelInvoice\Tests\TestCase;
+use Ardhikaxx\LaravelInvoice\Services\PaymentService;
+use Ardhikaxx\LaravelInvoice\Models\Invoice;
+use Ardhikaxx\LaravelInvoice\Enums\InvoiceStatus;
+use Ardhikaxx\LaravelInvoice\Events\InvoicePaid;
 use Illuminate\Support\Facades\Event;
 
 class PaymentServiceTest extends TestCase

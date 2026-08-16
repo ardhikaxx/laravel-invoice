@@ -1,8 +1,8 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Services;
+namespace Ardhikaxx\LaravelInvoice\Services;
 
-use Vendor\LaravelInvoice\Models\Invoice;
+use Ardhikaxx\LaravelInvoice\Models\Invoice;
 use Illuminate\Support\Facades\DB;
 
 class InvoiceNumberGenerator

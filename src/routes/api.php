@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Vendor\LaravelInvoice\Http\Controllers\InvoiceController;
+use Ardhikaxx\LaravelInvoice\Http\Controllers\InvoiceController;
 
 Route::prefix('api/invoices')->middleware('api')->group(function () {
     Route::get('/', [InvoiceController::class, 'index']);

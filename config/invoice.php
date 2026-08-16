@@ -67,7 +67,7 @@ return [
     |--------------------------------------------------------------------------
     */
     'models' => [
-        'customer' => \Vendor\LaravelInvoice\Models\Customer::class,
+        'customer' => \Ardhikaxx\LaravelInvoice\Models\Customer::class,
     ],
     
     /*

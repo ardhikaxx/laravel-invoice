@@ -1,10 +1,10 @@
 <?php
 
-namespace Vendor\LaravelInvoice;
+namespace Ardhikaxx\LaravelInvoice;
 
 use Illuminate\Support\ServiceProvider;
-use Vendor\LaravelInvoice\Contracts\PdfGeneratorInterface;
-use Vendor\LaravelInvoice\Services\Pdf\DompdfGenerator;
+use Ardhikaxx\LaravelInvoice\Contracts\PdfGeneratorInterface;
+use Ardhikaxx\LaravelInvoice\Services\Pdf\DompdfGenerator;
 
 class InvoiceServiceProvider extends ServiceProvider
 {

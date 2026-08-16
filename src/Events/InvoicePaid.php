@@ -1,10 +1,10 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Events;
+namespace Ardhikaxx\LaravelInvoice\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use Vendor\LaravelInvoice\Models\Invoice;
+use Ardhikaxx\LaravelInvoice\Models\Invoice;
 
 class InvoicePaid
 {

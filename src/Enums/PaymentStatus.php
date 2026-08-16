@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Enums;
+namespace Ardhikaxx\LaravelInvoice\Enums;
 
 enum PaymentStatus: string
 {

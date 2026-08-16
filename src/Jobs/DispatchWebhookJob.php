@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Jobs;
+namespace Ardhikaxx\LaravelInvoice\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -9,7 +9,7 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
-use Vendor\LaravelInvoice\Models\Invoice;
+use Ardhikaxx\LaravelInvoice\Models\Invoice;
 
 class DispatchWebhookJob implements ShouldQueue
 {

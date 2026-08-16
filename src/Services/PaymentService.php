@@ -1,12 +1,12 @@
 <?php
 
-namespace Vendor\LaravelInvoice\Services;
+namespace Ardhikaxx\LaravelInvoice\Services;
 
-use Vendor\LaravelInvoice\Models\Invoice;
-use Vendor\LaravelInvoice\Models\Payment;
-use Vendor\LaravelInvoice\Enums\InvoiceStatus;
-use Vendor\LaravelInvoice\Enums\PaymentStatus;
-use Vendor\LaravelInvoice\Events\InvoicePaid;
+use Ardhikaxx\LaravelInvoice\Models\Invoice;
+use Ardhikaxx\LaravelInvoice\Models\Payment;
+use Ardhikaxx\LaravelInvoice\Enums\InvoiceStatus;
+use Ardhikaxx\LaravelInvoice\Enums\PaymentStatus;
+use Ardhikaxx\LaravelInvoice\Events\InvoicePaid;
 use Illuminate\Support\Facades\DB;
 
 class PaymentService

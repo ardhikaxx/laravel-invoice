@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LaravelInvoice;
+namespace Ardhikaxx\LaravelInvoice;
 
 use Illuminate\Foundation\Application;
 
