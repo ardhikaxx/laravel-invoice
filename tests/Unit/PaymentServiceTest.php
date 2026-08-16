@@ -14,11 +14,12 @@ class PaymentServiceTest extends TestCase
     public function test_it_adds_payment_and_updates_status_to_partially_paid()
     {
         $invoice = Invoice::create([
-            'uuid' => 'test-uuid',
+            'uuid' => 'test-uuid-1',
             'invoice_number' => 'INV-1',
             'grand_total' => 1000,
             'status' => InvoiceStatus::PENDING,
             'invoice_date' => now(),
+            'currency' => 'IDR',
         ]);
         
         $service = new PaymentService();
@@ -34,11 +35,12 @@ class PaymentServiceTest extends TestCase
         Event::fake();
         
         $invoice = Invoice::create([
-            'uuid' => 'test-uuid',
+            'uuid' => 'test-uuid-2',
             'invoice_number' => 'INV-2',
             'grand_total' => 1000,
             'status' => InvoiceStatus::PENDING,
             'invoice_date' => now(),
+            'currency' => 'IDR',
         ]);
         
         $service = new PaymentService();
