@@ -1,5 +1,11 @@
 # Laravel Invoice
 
+[![Tests](https://github.com/ardhikaxx/laravel-invoice/actions/workflows/tests.yml/badge.svg)](https://github.com/ardhikaxx/laravel-invoice/actions)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ardhikaxx/laravel-invoice.svg?style=flat-square)](https://packagist.org/packages/ardhikaxx/laravel-invoice)
+[![PHP Version Require](https://img.shields.io/packagist/php-v/ardhikaxx/laravel-invoice?style=flat-square)](https://packagist.org/packages/ardhikaxx/laravel-invoice)
+[![License](https://img.shields.io/packagist/l/ardhikaxx/laravel-invoice?style=flat-square)](https://packagist.org/packages/ardhikaxx/laravel-invoice)
+
+
 A complete, professional, and production-ready invoice engine for Laravel. 
 
 This package is designed for building robust invoice systems in e-commerce, POS, SaaS, or any other enterprise applications. It provides the full business logic out-of-the-box: invoice generation, precise tax/discount calculation, partial payments, state management, PDF generation, and public verification.
@@ -126,3 +132,4 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
