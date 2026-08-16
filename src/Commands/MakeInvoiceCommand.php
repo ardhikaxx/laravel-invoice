@@ -1,6 +1,6 @@
 <?php
 
-namespace Ardhikaxx\LaravelInvoice\Console\Commands;
+namespace Ardhikaxx\LaravelInvoice\Commands;
 
 use Illuminate\Console\Command;
 use Ardhikaxx\LaravelInvoice\Services\InvoiceBuilder;
@@ -43,3 +43,4 @@ class MakeInvoiceCommand extends Command
         return 0;
     }
 }
+
